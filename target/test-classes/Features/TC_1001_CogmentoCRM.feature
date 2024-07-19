@@ -15,3 +15,9 @@ Feature: Test Cogmento CRM Application
     Then user enter firstname, lastname and select status
       | Rajani | Raut | Active |
     Then user click on save button
+
+  Scenario: validate the companies page functionality
+    When user click on companies link and click on create buttom
+    Then user enter name as "MasterCard" website as "https://www.mastercard.com" and social channels as "Linkedin"
+    Then click on save button
+    And click on delete button and click on confirm delete
