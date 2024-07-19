@@ -21,3 +21,14 @@ Feature: Test Cogmento CRM Application
     Then user enter name as "MasterCard" website as "https://www.mastercard.com" and social channels as "Linkedin"
     Then click on save button
     And click on delete button and click on confirm delete
+
+  Scenario Outline: validate Deals Page Functionality
+    When user click on deals link and click on create button
+    Then user enter details from excel sheet "<SheetName>" and <RowNumber>
+    Then click on save button
+    Then user click on delete button and confirm delete
+
+    Examples: 
+      | SheetName | RowNumber |
+      | DealsInfo |         0 |
+      | DealsInfo |         1 |
