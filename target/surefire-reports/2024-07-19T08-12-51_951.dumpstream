@@ -1,0 +1,5 @@
+# Created at 2024-07-19T08:12:52.284
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Softech Class 2024\Automation Testing _27April\GitHub\GitHub_WorkSpace_19July\TeamLeaderWorkSpace\CogmentoCRMApplication\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
